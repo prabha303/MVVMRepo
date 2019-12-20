@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import com.prabha.examplemvvm.R
 import com.prabha.examplemvvm.ui.launcher.main.LauncherFragment
 import com.prabha.examplemvvm.ui.launcher.main.MainFragment
+import com.prabha.examplemvvm.ui.launcher.main.SplashFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,22 +17,36 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
-        val fragmentTag = LauncherFragment::class.java.simpleName
-        val fragment = LauncherFragment.newInstance()
+        val fragmentTag = SplashFragment::class.java.simpleName
+        val fragment = SplashFragment.newInstance()
         val transaction = supportFragmentManager.beginTransaction().addToBackStack(null)
-
         transaction.replace(R.id.container, fragment, fragmentTag)
         transaction.commit()
 
         currentFragment = fragment
-
+        setFragmentBackStackListener()
     }
 
 
     private fun setFragmentBackStackListener() {
-        val fm = supportFragmentManager
+        supportFragmentManager.addOnBackStackChangedListener {
+            val fm = supportFragmentManager
+            if (supportFragmentManager.backStackEntryCount == 0) {
+                if (currentFragment is SplashFragment) {
+                    val fragmentTag = LauncherFragment::class.java.simpleName
+                    val fragment = LauncherFragment.newInstance()
+                    val transaction = supportFragmentManager.beginTransaction().addToBackStack(null)
+                    transaction.replace(R.id.container, fragment, fragmentTag)
+                    transaction.commit()
+                    currentFragment = fragment
+                }
+                e( "BackStack_Count" , "${fm.backStackEntryCount}")
+            }
+        }
 
-        e( "BackStack_Count" , "${fm.backStackEntryCount}")
     }
+
+
+
 
 }
