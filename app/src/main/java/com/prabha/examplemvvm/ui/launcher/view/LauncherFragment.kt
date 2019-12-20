@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.match.matchmakers.R
+import com.match.matchmakers.ui.launcher.view.BrokerListActivty
 import com.match.matchmakers.ui.launcher.view.LoginActivty
 import kotlinx.android.synthetic.main.launcher_fragment.view.*
 
@@ -38,6 +39,10 @@ class LauncherFragment : Fragment() {
 
         }
 
+        rootView.searchBrokerCard.setOnClickListener {
+            val intent = Intent(mContext, BrokerListActivty::class.java)
+            startActivity(intent)
+        }
 
     }
 

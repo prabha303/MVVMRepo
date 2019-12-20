@@ -22,6 +22,17 @@
             android:name=".ui.launcher.view.LoginActivty"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".ui.launcher.view.BrokerListActivty"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.launcher.view.RegisterActivty"
+            android:screenOrientation="portrait" />
+
+
+
+
     </application>
 
 

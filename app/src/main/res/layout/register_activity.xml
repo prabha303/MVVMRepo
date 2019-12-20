@@ -17,7 +17,7 @@
 
 
         <EditText
-            android:id="@+id/userName"
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter user name"
@@ -27,24 +27,53 @@
             android:background="@drawable/edittext_background" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/mobileNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="password"
-            android:inputType="textPassword"
+            android:hint="Mobile Number"
+            android:inputType="text"
+            android:padding="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edittext_background" />
+
+        <EditText
+            android:id="@+id/religion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Religion"
+            android:inputType="text"
+            android:padding="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edittext_background" />
+
+        <EditText
+            android:id="@+id/caste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Caste"
+            android:inputType="text"
+            android:padding="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edittext_background" />
+
+        <EditText
+            android:id="@+id/dateOfBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date Of Birth"
+            android:inputType="text"
             android:padding="@dimen/_15sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:background="@drawable/edittext_background" />
 
 
-
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/login"
+            android:id="@+id/register"
             style="@style/CardButtonStyle_Yellow"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
             android:layout_marginTop="@dimen/_12sdp"
-            android:text="Login"/>
+            android:text="Register"/>
 
 
 
@@ -72,16 +101,6 @@
         android:layout_centerInParent="true" />
 
 
-    <com.match.matchmakers.application.CustomTextViewLight
-        android:id="@+id/register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="click to Register here"
-        android:textColor="@color/white"
-        android:layout_marginTop="@dimen/_18sdp"
-        android:layout_below="@+id/loginLayout"
-        android:textSize="@dimen/_16sdp" />
 
 
 </RelativeLayout>

@@ -22,7 +22,6 @@ abstract class BaseActivity : DaggerAppCompatActivity(), INetworkChangeCallback 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
 
     }
 
