@@ -1,13 +1,13 @@
-package com.prabha.examplemvvm.ui.launcher.view
+package com.match.matchmakers.ui.launcher.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log.e
 import androidx.fragment.app.Fragment
-import com.prabha.examplemvvm.R
-import com.prabha.examplemvvm.ui.launcher.main.LauncherFragment
-import com.prabha.examplemvvm.ui.launcher.main.MainFragment
-import com.prabha.examplemvvm.ui.launcher.main.SplashFragment
+import com.match.matchmakers.R
+import com.match.matchmakers.ui.launcher.main.LauncherFragment
+import com.match.matchmakers.ui.launcher.main.MainFragment
+import com.match.matchmakers.ui.launcher.main.SplashFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 if (currentFragment is SplashFragment) {
                     val fragmentTag = LauncherFragment::class.java.simpleName
                     val fragment = LauncherFragment.newInstance()
-                    val transaction = supportFragmentManager.beginTransaction().addToBackStack(null)
+                    val transaction = supportFragmentManager.beginTransaction()
                     transaction.replace(R.id.container, fragment, fragmentTag)
                     transaction.commit()
                     currentFragment = fragment

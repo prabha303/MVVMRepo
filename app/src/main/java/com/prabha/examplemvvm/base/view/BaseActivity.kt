@@ -1,4 +1,4 @@
-package com.prabha.examplemvvm.base.view
+package com.match.matchmakers.base.view
 
 import android.Manifest
 import android.app.Activity
@@ -9,7 +9,7 @@ import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
-import com.prabha.examplemvvm.base.receiver.INetworkChangeCallback
+import com.match.matchmakers.base.receiver.INetworkChangeCallback
 import dagger.android.support.DaggerAppCompatActivity
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.prabha.examplemvvm.ui.launcher.main
+package com.match.matchmakers.ui.launcher.main
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.prabha.examplemvvm.R
+import com.match.matchmakers.R
 
 class MainFragment : Fragment() {
 

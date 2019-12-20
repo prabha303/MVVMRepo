@@ -1,4 +1,4 @@
-package com.prabha.examplemvvm.base.receiver
+package com.match.matchmakers.base.receiver
 
 interface INetworkChangeCallback {
     fun onInternetConnected()

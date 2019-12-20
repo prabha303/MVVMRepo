@@ -8,7 +8,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         multiDexEnabled true
-        applicationId "com.prabha.examplemvvm"
+        applicationId "com.match.matchmakers"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
