@@ -37,3 +37,7 @@ R
 "app/src/main/res/values/styles.xml,f/7/f79cc2688e29fcbc286fda14ae07b27c9e83690f
 ]
 -app/src/main/res/layout/launcher_fragment.xml,c/7/c76eacd5071a497b30ebe335bb6e45fe72fda4df
+|
+Lapp/src/main/java/com/prabha/examplemvvm/ui/broker/view/BrokerListActivty.kt,9/b/9ba2e9c6c5e8ea718f8afdf71796d142aa85fadd
+|
+Lapp/src/main/java/com/prabha/examplemvvm/ui/register/view/RegisterActivty.kt,3/b/3be97bbe4af2e4ebe5bdd90719def1013c824626
