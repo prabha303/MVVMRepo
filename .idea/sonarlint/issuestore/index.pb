@@ -9,8 +9,6 @@ r
 Bapp/src/main/java/com/prabha/examplemvvm/base/view/BaseActivity.kt,4/7/47ab196a17134dee1585b9e1c28e8ec9bb194360
 u
 Eapp/src/main/java/com/prabha/examplemvvm/application/MyApplication.kt,6/7/67df9851324b04fa270b9293f875a5166c0cba96
-x
-Happ/src/main/java/com/prabha/examplemvvm/application/CustomTextView.java,b/f/bf2c97bfc01215e7b6ab96d9cdd00af5d16bfc2e
 
 Oapp/src/main/java/com/prabha/examplemvvm/application/CustomTextViewRegular.java,4/d/4de4f4674907ec32409a3877c927ee2f5ec10b4c
 }

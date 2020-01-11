@@ -4,8 +4,6 @@ import android.app.Application
 import android.content.Context
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.multidex.MultiDex
-import dagger.android.AndroidInjector
-import dagger.android.DaggerApplication
 
 class MyApplication : Application() {
 
@@ -29,7 +27,7 @@ class MyApplication : Application() {
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
     }
 
-
+    
     companion object {
         private var instance: MyApplication? = null
         fun getApplicationContext(): Context {
