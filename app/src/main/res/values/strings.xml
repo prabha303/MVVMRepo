@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SMI TestApp</string>
+    <string name="desc">SMI TestApp</string>
+
+    <string name="rs">\u20B9</string>
+
 </resources>

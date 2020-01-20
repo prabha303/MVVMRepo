@@ -27,7 +27,7 @@ class SubOptionAdapter(var context: Context, var dataList: ArrayList<SubCategory
     override fun onBindViewHolder(holder:MyViewHolder, position: Int) {
         val docItem = dataList.get(holder.adapterPosition)
         holder.itemDesc.text = docItem.Name
-        val price = "$" + docItem.price
+        val price = context.resources.getString(R.string.rs) + docItem.price
         holder.price.text =price
 
         holder.add.setOnClickListener {

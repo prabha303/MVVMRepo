@@ -39,7 +39,7 @@ class MainViewModel : ViewModel() {
 
 
     fun calcTotalValue(action: Boolean, subCategory: SubCategory, category: String,totalPrice: String) {
-        var totalAmt = 0.0
+        val totalAmt : Double
         val totInt = totalPrice.toDouble()
         var selectedAmt = 0
         if (!TextUtils.isEmpty(subCategory.price)){

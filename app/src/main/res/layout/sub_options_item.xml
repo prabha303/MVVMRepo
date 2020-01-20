@@ -13,6 +13,7 @@
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_6sdp"
+        android:baselineAligned="false"
         android:layout_gravity="center"
         android:layout_height="wrap_content" >
 
@@ -23,6 +24,7 @@
             android:src="@drawable/ic_card_circle"
             android:layout_gravity="center"
             android:gravity="start"
+            android:contentDescription="@string/desc"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
@@ -53,7 +55,7 @@
                     android:visibility="visible"
                     android:layout_gravity="center"
                     android:gravity="start"
-                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_1sdp"
                     android:layout_marginTop="@dimen/_4sdp"
                     tools:text="Okk" />
                 <com.prabha.application.CustomTextViewRegular
@@ -62,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/_10sdp"
                     android:layout_marginTop="@dimen/_2sdp"
-                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
                     android:textColor="@color/finished_color"
                     android:visibility="visible"
                     android:layout_gravity="center"
@@ -160,37 +162,7 @@
 
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="2"
-            android:layout_gravity="center"
-            android:gravity="start"
-            android:layout_height="wrap_content" >
-            <ImageView
-                android:layout_width="@dimen/_36sdp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_up"
-                android:layout_gravity="center"
-                android:gravity="start"
-                android:visibility="gone"
-                android:cropToPadding="true"
-                android:layout_marginTop="@dimen/_2sdp"
-                android:layout_marginEnd="@dimen/_16sdp"
-                android:layout_marginStart="@dimen/_8sdp" />
-            <ImageView
-                android:layout_weight="1"
-                android:layout_width="@dimen/_36sdp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_down"
-                android:layout_gravity="center"
-                android:gravity="start"
-                android:visibility="visible"
-                android:cropToPadding="true"
-                android:layout_marginTop="@dimen/_2sdp"
-                android:layout_marginEnd="@dimen/_16sdp"
-                android:layout_marginStart="@dimen/_8sdp" />
-        </LinearLayout>
+
     </LinearLayout>
 
 
