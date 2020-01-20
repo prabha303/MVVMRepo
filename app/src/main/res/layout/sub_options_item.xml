@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_card_circle"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible"
+            android:cropToPadding="true"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_8sdp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_height="match_parent" >
+                <com.prabha.application.CustomTextView
+                    android:id="@+id/itemDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="@color/color_3333"
+                    android:visibility="visible"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    tools:text="Okk" />
+                <com.prabha.application.CustomTextViewRegular
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:textColor="@color/finished_color"
+                    android:visibility="visible"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    tools:text="$30" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1.5"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:gravity="center|end"
+                android:layout_height="match_parent" >
+
+
+                <com.prabha.application.CustomTextView
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundrect_btn_add"
+                    android:textColor="@color/green_text"
+                    android:gravity="end"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_28sdp"
+                    android:paddingEnd="@dimen/_28sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="ADD" />
+                <LinearLayout
+                    android:id="@+id/add_remove_layout"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundrect_btn_add"
+                    android:layout_gravity="center|end"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" >
+                    <com.prabha.application.CustomTextView
+                        android:id="@+id/minus_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/green_text"
+                        android:gravity="center"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:visibility="visible"
+                        android:layout_gravity="left|center"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:textSize="@dimen/_16sdp"
+                        android:text="-" />
+                    <com.prabha.application.CustomTextView
+                        android:id="@+id/quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="0" />
+                    <com.prabha.application.CustomTextView
+                        android:id="@+id/add_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:textColor="@color/green_text"
+                        android:gravity="end"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:visibility="visible"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_14sdp"
+                        android:text="+" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_up"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:visibility="gone"
+                android:cropToPadding="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginStart="@dimen/_8sdp" />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_down"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:visibility="visible"
+                android:cropToPadding="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginStart="@dimen/_8sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

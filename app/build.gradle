@@ -8,7 +8,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         multiDexEnabled true
-        applicationId "com.match.matchmakers"
+        applicationId "com.prabha.smi"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
@@ -41,6 +41,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:3.11.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     /* Dagger2  */
     implementation 'com.google.dagger:dagger:2.24'
     implementation 'com.google.dagger:dagger-android:2.22'

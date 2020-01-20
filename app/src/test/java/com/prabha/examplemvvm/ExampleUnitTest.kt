@@ -1,4 +1,4 @@
-package com.match.matchmakers
+package com.prabha.smi
 
 import org.junit.Test
 

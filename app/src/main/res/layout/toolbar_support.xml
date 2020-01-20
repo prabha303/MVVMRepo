@@ -1,0 +1,61 @@
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_toolbar"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_marginRight="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginStart="0dp"
+    app:layout_scrollFlags="scroll|enterAlways"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/my_toolbar_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="@style/Base.TextAppearance.AppCompat.Menu"
+            android:text="For Any Queries,"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stausBar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingRight="@dimen/_16sdp"
+                android:text="call_number"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:visibility="gone"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/stausBar_call"
+                android:layout_width="fill_parent"
+                android:layout_weight="2.2"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

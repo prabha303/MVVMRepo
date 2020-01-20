@@ -1,0 +1,77 @@
+{
+  "DataResponse": {
+    "Status": "Ok",
+    "restaurant_name": "Radisson Blu",
+    "address_block_name": "No.1, Palace Road",
+    "address_city": "Bangalore",
+    "address_state": "Karnataka, India",
+    "cuisine": "North Indian,Chinese,South Indian",
+    "Ratings": "4.3 / 5",
+    "delivery_time": "30 - 40 Mins",
+    "dataList": [
+      {
+        "CategoryId": "1",
+        "Category": "Chicken",
+        "subCategory": [
+          {
+            "name": "Tahini Roasted Chicken",
+            "id": "5c",
+            "price": "50"
+          },
+          {
+            "name": "Chicken Stir-Fry",
+            "id": "5b",
+            "price": "100"
+          },
+          {
+            "name": "Chicken Stroganoff",
+            "id": "5a",
+            "price": "150"
+          }
+        ]
+      },
+      {
+        "CategoryId": "2",
+        "Category": "Mutton",
+        "subCategory": [
+          {
+            "name": "Tahini Roasted Mutton",
+            "id": "5c",
+            "price": "50"
+          },
+          {
+            "name": "Mutton Stir-Fry",
+            "id": "5b",
+            "price": "100"
+          },
+          {
+            "name": "Mutton Stroganoff",
+            "id": "5a",
+            "price": "150"
+          }
+        ]
+      },
+      {
+        "CategoryId": "3",
+        "Category": "Fish",
+        "subCategory": [
+          {
+            "name": "Tahini Roasted Fish",
+            "id": "5c",
+            "price": "50"
+          },
+          {
+            "name": "Fish Stir-Fry",
+            "id": "5b",
+            "price": "100"
+          },
+          {
+            "name": "Fish Stroganoff",
+            "id": "5a",
+            "price": "150"
+          }
+        ]
+      }
+    ]
+  }
+}
