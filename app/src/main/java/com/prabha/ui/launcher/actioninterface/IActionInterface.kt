@@ -1,6 +1,6 @@
 package com.lynk.cardlibrary.actioninterface
 
-import com.prabha.examplemvvm.ui.launcher.model.SubCategory
+import com.prabha.ui.launcher.model.SubCategory
 
 
 interface IActionInterface {

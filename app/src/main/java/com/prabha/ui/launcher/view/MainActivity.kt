@@ -9,11 +9,11 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.RecyclerView
 import com.lynk.cardlibrary.actioninterface.IActionInterface
-import com.prabha.examplemvvm.ui.launcher.Util
-import com.prabha.examplemvvm.ui.launcher.adapter.MainOptionAdapter
-import com.prabha.examplemvvm.ui.launcher.model.DataResponse
-import com.prabha.examplemvvm.ui.launcher.model.SubCategory
-import com.prabha.examplemvvm.ui.launcher.viewmodel.MainViewModel
+import com.prabha.ui.launcher.Util
+import com.prabha.ui.launcher.adapter.MainOptionAdapter
+import com.prabha.ui.launcher.model.DataResponse
+import com.prabha.ui.launcher.model.SubCategory
+import com.prabha.ui.launcher.viewmodel.MainViewModel
 
 
 class MainActivity : AppCompatActivity(), IActionInterface {

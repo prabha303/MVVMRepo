@@ -1,4 +1,4 @@
-package com.prabha.examplemvvm.ui.launcher.adapter
+package com.prabha.ui.launcher.adapter
 
 import android.content.Context
 import android.text.TextUtils
@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.lynk.cardlibrary.actioninterface.IActionInterface
 import com.prabha.smi.R
-import com.prabha.examplemvvm.ui.launcher.model.DataList
-import com.prabha.examplemvvm.ui.launcher.model.SubCategory
+import com.prabha.ui.launcher.model.DataList
+import com.prabha.ui.launcher.model.SubCategory
 import kotlinx.android.synthetic.main.main_activity.*
 
 

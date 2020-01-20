@@ -1,4 +1,4 @@
-package com.prabha.examplemvvm.ui.launcher
+package com.prabha.ui.launcher
 
 import android.content.Context
 import java.io.InputStream

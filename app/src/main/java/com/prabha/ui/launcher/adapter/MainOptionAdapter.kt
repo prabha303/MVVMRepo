@@ -1,4 +1,4 @@
-package com.prabha.examplemvvm.ui.launcher.adapter
+package com.prabha.ui.launcher.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -10,8 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.prabha.smi.R
-import com.prabha.examplemvvm.ui.launcher.model.DataList
-import kotlinx.android.synthetic.main.main_activity.*
+import com.prabha.ui.launcher.model.DataList
 
 
 class MainOptionAdapter(var context: Context, var dataList: ArrayList<DataList>): RecyclerView.Adapter<MainOptionAdapter.Companion.MyViewHolder>() {

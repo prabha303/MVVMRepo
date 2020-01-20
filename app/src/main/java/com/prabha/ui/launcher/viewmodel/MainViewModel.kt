@@ -1,12 +1,12 @@
-package com.prabha.examplemvvm.ui.launcher.viewmodel
+package com.prabha.ui.launcher.viewmodel
 
 import android.text.TextUtils
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
-import com.prabha.examplemvvm.ui.launcher.model.DataResponse
-import com.prabha.examplemvvm.ui.launcher.model.SubCategory
+import com.prabha.ui.launcher.model.DataResponse
+import com.prabha.ui.launcher.model.SubCategory
 
 class MainViewModel : ViewModel() {
 
